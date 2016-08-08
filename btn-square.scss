@@ -1,0 +1,75 @@
+.btn-square {
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  outline: 0px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  background-image: none;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+  font-family: inherit;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  float: none;
+  vertical-align: middle;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                 not supported by any browser */
+}
+
+.btn-square:hover {
+  cursor: pointer;
+}
+
+@for $i from 3 through 10{
+  .btn-square.square-#{10 * $i}{
+    font-size: 6px * $i;
+    height: 10px * $i;
+    width: 10px * $i;
+    line-height: 11px * $i;
+  }
+
+}
+
+$colors: red #e68282, blue #91a7bf, orange #ed9f7d, violet #9e8e9e, green #8bb883, brown #b08466, gray #7f7f7f, lightgray #c0c0c0, darkgray #555, pink #fbb6b6, default #ececec;
+@each $color in $colors {
+  .btn-square.#{nth($color, 1)}{
+     background-color: nth($color, 2) !important;
+     @if nth($color, 1) == default {
+        color: #666 !important;
+     } 
+  }
+  
+ 
+  .btn-square.#{nth($color, 1)}:focus{
+  
+    background-color: mix(#000,nth($color, 2), 5%) !important;
+  }
+  .btn-square.#{nth($color, 1)}:hover{
+    background-color: mix(#000,nth($color, 2), 10%) !important;;
+  }
+  .btn-square.#{nth($color, 1)}:active{
+    background-color: mix(#000,nth($color, 2), 15%) !important;
+  }
+  
+  
+}
+.btn-square.border{
+  border: 2px solid #fff !important;
+}
+.btn-square.shadow {
+  box-shadow: 0 1px 4px #999 !important;
+}
+.btn-square.shadow:active{
+  box-shadow: 0 1px 2px #999 !important;
+}

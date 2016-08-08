@@ -1,0 +1,340 @@
+/* line 1, btn-square.scss */
+.btn-square {
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  outline: 0px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  background-image: none;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+  font-family: inherit;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  float: none;
+  vertical-align: middle;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+    not supported by any browser */
+}
+
+/* line 30, btn-square.scss */
+.btn-square:hover {
+  cursor: pointer;
+}
+
+/* line 35, btn-square.scss */
+.btn-square.square-30 {
+  font-size: 18px;
+  height: 30px;
+  width: 30px;
+  line-height: 33px;
+}
+
+/* line 35, btn-square.scss */
+.btn-square.square-40 {
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  line-height: 44px;
+}
+
+/* line 35, btn-square.scss */
+.btn-square.square-50 {
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  line-height: 55px;
+}
+
+/* line 35, btn-square.scss */
+.btn-square.square-60 {
+  font-size: 36px;
+  height: 60px;
+  width: 60px;
+  line-height: 66px;
+}
+
+/* line 35, btn-square.scss */
+.btn-square.square-70 {
+  font-size: 42px;
+  height: 70px;
+  width: 70px;
+  line-height: 77px;
+}
+
+/* line 35, btn-square.scss */
+.btn-square.square-80 {
+  font-size: 48px;
+  height: 80px;
+  width: 80px;
+  line-height: 88px;
+}
+
+/* line 35, btn-square.scss */
+.btn-square.square-90 {
+  font-size: 54px;
+  height: 90px;
+  width: 90px;
+  line-height: 99px;
+}
+
+/* line 35, btn-square.scss */
+.btn-square.square-100 {
+  font-size: 60px;
+  height: 100px;
+  width: 100px;
+  line-height: 110px;
+}
+
+/* line 46, btn-square.scss */
+.btn-square.red {
+  background-color: #e68282 !important;
+}
+
+/* line 54, btn-square.scss */
+.btn-square.red:focus {
+  background-color: #db7c7c !important;
+}
+
+/* line 58, btn-square.scss */
+.btn-square.red:hover {
+  background-color: #cf7575 !important;
+}
+
+/* line 61, btn-square.scss */
+.btn-square.red:active {
+  background-color: #c46f6f !important;
+}
+
+/* line 46, btn-square.scss */
+.btn-square.blue {
+  background-color: #91a7bf !important;
+}
+
+/* line 54, btn-square.scss */
+.btn-square.blue:focus {
+  background-color: #8a9fb5 !important;
+}
+
+/* line 58, btn-square.scss */
+.btn-square.blue:hover {
+  background-color: #8396ac !important;
+}
+
+/* line 61, btn-square.scss */
+.btn-square.blue:active {
+  background-color: #7b8ea2 !important;
+}
+
+/* line 46, btn-square.scss */
+.btn-square.orange {
+  background-color: #ed9f7d !important;
+}
+
+/* line 54, btn-square.scss */
+.btn-square.orange:focus {
+  background-color: #e19777 !important;
+}
+
+/* line 58, btn-square.scss */
+.btn-square.orange:hover {
+  background-color: #d58f71 !important;
+}
+
+/* line 61, btn-square.scss */
+.btn-square.orange:active {
+  background-color: #c9876a !important;
+}
+
+/* line 46, btn-square.scss */
+.btn-square.violet {
+  background-color: #9e8e9e !important;
+}
+
+/* line 54, btn-square.scss */
+.btn-square.violet:focus {
+  background-color: #968796 !important;
+}
+
+/* line 58, btn-square.scss */
+.btn-square.violet:hover {
+  background-color: #8e808e !important;
+}
+
+/* line 61, btn-square.scss */
+.btn-square.violet:active {
+  background-color: #867986 !important;
+}
+
+/* line 46, btn-square.scss */
+.btn-square.green {
+  background-color: #8bb883 !important;
+}
+
+/* line 54, btn-square.scss */
+.btn-square.green:focus {
+  background-color: #84af7c !important;
+}
+
+/* line 58, btn-square.scss */
+.btn-square.green:hover {
+  background-color: #7da676 !important;
+}
+
+/* line 61, btn-square.scss */
+.btn-square.green:active {
+  background-color: #769c6f !important;
+}
+
+/* line 46, btn-square.scss */
+.btn-square.brown {
+  background-color: #b08466 !important;
+}
+
+/* line 54, btn-square.scss */
+.btn-square.brown:focus {
+  background-color: #a77d61 !important;
+}
+
+/* line 58, btn-square.scss */
+.btn-square.brown:hover {
+  background-color: #9e775c !important;
+}
+
+/* line 61, btn-square.scss */
+.btn-square.brown:active {
+  background-color: #967057 !important;
+}
+
+/* line 46, btn-square.scss */
+.btn-square.gray {
+  background-color: #7f7f7f !important;
+}
+
+/* line 54, btn-square.scss */
+.btn-square.gray:focus {
+  background-color: #797979 !important;
+}
+
+/* line 58, btn-square.scss */
+.btn-square.gray:hover {
+  background-color: #727272 !important;
+}
+
+/* line 61, btn-square.scss */
+.btn-square.gray:active {
+  background-color: #6c6c6c !important;
+}
+
+/* line 46, btn-square.scss */
+.btn-square.lightgray {
+  background-color: #c0c0c0 !important;
+}
+
+/* line 54, btn-square.scss */
+.btn-square.lightgray:focus {
+  background-color: #b6b6b6 !important;
+}
+
+/* line 58, btn-square.scss */
+.btn-square.lightgray:hover {
+  background-color: #adadad !important;
+}
+
+/* line 61, btn-square.scss */
+.btn-square.lightgray:active {
+  background-color: #a3a3a3 !important;
+}
+
+/* line 46, btn-square.scss */
+.btn-square.darkgray {
+  background-color: #555 !important;
+}
+
+/* line 54, btn-square.scss */
+.btn-square.darkgray:focus {
+  background-color: #515151 !important;
+}
+
+/* line 58, btn-square.scss */
+.btn-square.darkgray:hover {
+  background-color: #4d4d4d !important;
+}
+
+/* line 61, btn-square.scss */
+.btn-square.darkgray:active {
+  background-color: #484848 !important;
+}
+
+/* line 46, btn-square.scss */
+.btn-square.pink {
+  background-color: #fbb6b6 !important;
+}
+
+/* line 54, btn-square.scss */
+.btn-square.pink:focus {
+  background-color: #eeadad !important;
+}
+
+/* line 58, btn-square.scss */
+.btn-square.pink:hover {
+  background-color: #e2a4a4 !important;
+}
+
+/* line 61, btn-square.scss */
+.btn-square.pink:active {
+  background-color: #d59b9b !important;
+}
+
+/* line 46, btn-square.scss */
+.btn-square.default {
+  background-color: #ececec !important;
+  color: #666 !important;
+}
+
+/* line 54, btn-square.scss */
+.btn-square.default:focus {
+  background-color: #e0e0e0 !important;
+}
+
+/* line 58, btn-square.scss */
+.btn-square.default:hover {
+  background-color: #d4d4d4 !important;
+}
+
+/* line 61, btn-square.scss */
+.btn-square.default:active {
+  background-color: #c9c9c9 !important;
+}
+
+/* line 67, btn-square.scss */
+.btn-square.border {
+  border: 2px solid #fff !important;
+}
+
+/* line 70, btn-square.scss */
+.btn-square.shadow {
+  box-shadow: 0 1px 4px #999 !important;
+}
+
+/* line 73, btn-square.scss */
+.btn-square.shadow:active {
+  box-shadow: 0 1px 2px #999 !important;
+}
