@@ -362,6 +362,11 @@
 }
 
 /* line 98, btn-square.scss */
+.round.btn-hover:before {
+  border-radius: 999px;
+}
+
+/* line 101, btn-square.scss */
 .btn-hover.active:before {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -371,7 +376,7 @@
   transform: scale(1);
 }
 
-/* line 108, btn-square.scss */
+/* line 111, btn-square.scss */
 .btn-hover:hover:before {
   opacity: 1;
   -webkit-transform: scale(1);

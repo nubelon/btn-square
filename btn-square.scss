@@ -84,6 +84,7 @@ $colors: red #e68282, blue #91a7bf, orange #ed9f7d, violet #9e8e9e, green #8bb88
   background-color: rgba(0, 0, 0, 0.12);
   z-index: 0;
   opacity: 0;
+  
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -94,7 +95,9 @@ $colors: red #e68282, blue #91a7bf, orange #ed9f7d, violet #9e8e9e, green #8bb88
   -o-transition: all .3s ease;
   transition: all .3s ease;
 }
-
+.round.btn-hover:before {
+  border-radius: 999px;
+}
 .btn-hover.active:before {
   opacity: 1;
   -webkit-transform: scale(1);
